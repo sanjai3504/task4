@@ -1,0 +1,31 @@
+.dis{
+    
+    display: grid;
+    background-color:rgb(244, 239, 239);
+    height: 2cm;
+    color: black;
+    font-size: 50px;
+}
+.disgri{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    place-content: bottom;
+}
+.disnum{
+    background-color: rgba(231, 90, 19, 0.607);
+    color: rgb(240, 229, 227);
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2cm;
+    margin: 2px;
+    color: rgb(8, 8, 8);
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+.disnum:hover{
+background-color:rgba(255, 255, 255, 0.186);
+}
